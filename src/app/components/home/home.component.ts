@@ -16,10 +16,11 @@ export class HomeComponent {
     this.loading = true;
     
     this.servicioSpotify.getNewReleases()
-        .subscribe( data =>{          
-          this.nuevasCanciones = data;          
-          this.loading = false;
-        });
+        .subscribe(            
+          (data) =>{          
+            this.nuevasCanciones = data;          
+            this.loading = false;
+          });
 
   }
 

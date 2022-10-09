@@ -20,15 +20,14 @@ export class SpotifyService {
       const url = `https://api.spotify.com/v1/${query}`;
       
       const headers = new HttpHeaders({
-        'Authorization': 'Bearer BQAH62euO0j8YyPbltoo4SkX7w0jrTYMdw1nneq-udSCf-xP5vG2wWjTBkzV5K-JbTyrNEqNnERDGxED7sf640lHImjiLpLBisSvqASn1UJDoUOIwMA'
+        'Authorization': 'Bearer BQAOt9_78jMpMtY6KeZANFRMW2pJgJ_hT4AQIRhSvjGdR1oNbiidIdFdQ_Sivmd_vrYc8yvgr-DUDhZQ_EM6oahAneYU57fV0Eg6rLbjB39Z_pPh-c0'
       });
 
       return this.http.get(url, {headers});
   }
 
   getNewReleases(){
-
-
+    
     // el operador map solo trabaja con observables!
     return this.getQuery('browse/new-releases')
                .pipe( map( (data:any) =>{ return data.albums.items }));;            
