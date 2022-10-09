@@ -1,27 +1,24 @@
-# Spotiapp
+# SpotyAPP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Si quieres correr la aplicación, descargala en tu equipo, y mediante consola ejecuta el comando `ng serve` para montar un servidor local. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-## Code scaffolding
+### La aplicación cuenta con:
+- Conexión a la API de spotify, la cual mediante un token de autenticación permite:
+  - obtener los artistas más escuchados, presentados en el home.
+  - sistema de búsqueda en tiempo real por nombre de artista
+  - página principal del artista y el top 10 de canciones más escuchadas
+  - widget de spotify en la página del artista para escuchar un preview de cada canción
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Aquí  algunas imágenes de referencia
+### Página inicial (Home)
+[![imagen1.png](https://i.postimg.cc/cL6Q40sw/imagen1.png)](https://postimg.cc/SnFXg0Yx)
 
-## Build
+### Página de búsqueda de artistas (Search)
+[![imagen2.png](https://i.postimg.cc/W4kgg8q4/imagen2.png)](https://postimg.cc/CZwRVjNy)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Página del artista con el top 10 de canciones más escuchadas 
+[![imagen3.png](https://i.postimg.cc/vZj54kBj/imagen3.png)](https://postimg.cc/VJqJT7XB)
