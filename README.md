@@ -7,6 +7,7 @@ Proyecto generado con [Angular CLI](https://github.com/angular/angular-cli) vers
 Si quieres correr la aplicación, descargala en tu equipo, y mediante consola ejecuta el comando `ng serve` para montar un servidor local. Navegue a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
 ### La aplicación cuenta con:
+
 - Conexión a la API de spotify, la cual mediante un token de autenticación permite:
   - obtener los artistas más escuchados, presentados en el home.
   - sistema de búsqueda en tiempo real por nombre de artista
